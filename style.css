@@ -1,0 +1,253 @@
+ul {
+    background-color: black;
+    padding: 30px;
+    position: fixed;
+    top: -16px;
+    width: 100%;
+    z-index: 30;
+    
+}
+.nav {
+    color: rgb(218, 218, 218);
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.navigate {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 20;
+}
+a {
+    text-decoration: none;
+}
+.navlink {
+    color: rgb(218, 218, 218);
+}
+.navlink:hover {
+    color: white;
+}
+.section1 {
+    width: 70%;
+    margin: auto;
+}
+.sect1 {
+    padding: 20px;
+    width: 30%;
+}
+.logo {
+    position: fixed;
+    top: 36px;
+    left: 362px;
+    z-index: 30;
+}
+.sect2 {
+    width: 60%;
+    height: 520px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.about {
+    width: 33.5%;
+}
+.about1 {
+    background-color: #ececec;
+    width: 28%;
+    padding: 20px;
+}
+.imgabout {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.heading1 {
+    text-align: center;
+    position: relative;
+}
+.heading1::after {
+    content: "";
+    position: absolute;
+    width: 24%;
+    height: 2px;
+    background-color: black;
+    bottom: -10px;
+    right: 37.5%;
+}
+.para1 {
+    text-align: center;
+    line-height: 1.9;
+}
+.section3 {
+    background-color: black;
+    padding: 20px;
+}
+.heading2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section3div {
+    width: 60%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.sect3 {
+    padding: 20px;
+    width: 15%;
+    color: white;
+}
+.sect3img {
+    width: 100%;
+    height: 100%;
+}
+.heading3 {
+    text-align: center;
+}
+.para2 {
+    text-align: center;
+}
+.bg-img {
+    background-image: url(1.jpg);
+    position: absolute;
+    height: 580px;
+    width: 100%;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    font-family: 'Old Standard TT', serif;
+    font-weight: normal;
+    font-size: 32px;
+}
+.quote::before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    background-color: black;
+    height: 2.5px;
+    bottom: 10px;
+    left: 47.5%;
+}
+input {
+    padding: 20px;
+    margin: 5px;
+    background-color: white;
+    width: 60%;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+.gen {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+form {
+    position: absolute;
+    width: 100%;
+}
+::placeholder {
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.textarea {
+    width: 60%;
+    margin: auto;
+}
+.tex {
+    width: 99%;
+    height: 100px;
+}
+.submit {
+    background-color: transparent;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Old Standard TT', serif;
+}
+.para3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 23%;
+    position: relative;
+}
+.section5 {
+    background-color: #e4e0e0;
+    padding: 60px;
+}
+.sect5 {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.sect5div {
+    width: 30%;
+    margin: 0px 20px;
+}
+.sect5idiv {
+    width: 60%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.sec5img {
+    width: 100%;
+}
+.follow {
+    text-align: center;
+    margin: 20px;
+}
+.sect6 {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.sect6div {
+    width: 13%;
+    margin: 3px;
+}
+.sect6img {
+    width: 100%;
+    height: 70%;
+}
+footer {
+    background-color: black;
+    padding: 3px;
+    color: white;
+}
+.footerdiv {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.foot {
+    margin: 20px;
+}
+h3 {
+    margin: 0px;
+}
+.fab {
+    margin-right: 10px;
+    font-size: 20px;
+}
